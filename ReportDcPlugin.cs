@@ -40,30 +40,35 @@ public class ReportDcPlugin : BasePlugin
     public override void Load(bool hotReload)
     {
         var configPath = Path.Join(ModuleDirectory, "Config.json");
+
+        // Only create the file if it does NOT exist
         if (!File.Exists(configPath))
         {
             var data = new Config()
             {
                 Prefix = "Prefix",
-                PlayerResponseNotEnoughInput = "Daha fazla bilgi vermelisiniz",
-                PlayerResponseSuccessfull = "Report başarıyla iletildi",
+                PlayerResponseNotEnoughInput = "You must provide more information",
+                PlayerResponseSuccessfull = "Report successfully delivered",
                 Commands = new Dictionary<string, string>()
-                {
-                    {"report","https://discord.com/api/webhooks/****************/*************************" },
-                    {"report2","https://discord.com/api/webhooks/****************/*************************" },
-                    {"reports","https://discord.com/api/webhooks/****************/*************************" }
-                },
+            {
+                {"report","https://discord.com/api/webhooks/****************/*************************" },
+                {"report2","https://discord.com/api/webhooks/****************/*************************" },
+                {"reports","https://discord.com/api/webhooks/****************/*************************" }
+            },
                 ServerName = "Server1"
             };
-            File.WriteAllText(configPath, JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping }));
-            _config = data;
-        }
-        else
-        {
-            var text = File.ReadAllText(configPath);
 
-            _config = JsonSerializer.Deserialize<Config>(text);
-        };
+            // Write config only if it does NOT exist
+            File.WriteAllText(configPath, JsonSerializer.Serialize(data, new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            }));
+        }
+
+        // Always load the config file, do NOT overwrite it!
+        var text = File.ReadAllText(configPath);
+        _config = JsonSerializer.Deserialize<Config>(text);
 
         if (_config?.Commands != null)
         {

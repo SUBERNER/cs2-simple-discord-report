@@ -1,0 +1,11 @@
+{
+  "Prefix": "Prefix",
+  "PlayerResponseNotEnoughInput": "You must provide more information",
+  "Commands": {
+    "report": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "report2": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reports": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu"
+  },
+  "PlayerResponseSuccessfull": "Report successfully delivered",
+  "ServerName": "Server1"
+}
