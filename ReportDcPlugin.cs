@@ -86,13 +86,13 @@ public class ReportDcPlugin : BasePlugin
                         player!.PrintToChat(AddPrefixToTheMessage(_config.PlayerResponseNotEnoughInput, _config.Prefix));
                     };
 
-                    var msg = $"{player.PlayerName} | {player.SteamID} = {info.ArgString}";
-
+                    var msg = $"{_config.ServerName} | {player.PlayerName} | {player.SteamID} = {info.ArgString}";
+                    /*
                     if (string.IsNullOrWhiteSpace(_config.ServerName) == false)
                     {
                         msg = $"{_config.ServerName} | {msg}";
                     }
-
+                    */
                     Server.NextFrame(async () =>
                     {
                         await PostAsync(command.Value, msg);

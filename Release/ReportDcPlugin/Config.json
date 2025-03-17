@@ -3,9 +3,32 @@
   "PlayerResponseNotEnoughInput": "You must provide more information",
   "Commands": {
     "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+    "reportUSA": "https://discord.com/api/webhooks/1339074822008995941/ZoYeusgnGGIEmqo_6NYXX9Rl4N-00ucR2DXhWfSfGB1AglMrINyl5BzRfxxvQBvnN45T",
+
     "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+    "reportMSU": "https://discord.com/api/webhooks/1349503364588634175/9lB0ouaegERQqJK69KBVMawSacRdI7F3pVd1P6T6G0Casy7t1pRUz-YA1XvJOYdd92h7",
+
     "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
-    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z"
+    "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
+    "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
+    "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
+    "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
+    "reportRTU": "https://discord.com/api/webhooks/1349503659989536790/WH6ntQ46Rjg3FXdUd9ZfLBmbvldHnd7FSg7T6gyQP06FPcREhXO5IX_QHB6AdvjgTIBu",
+
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
+    "reportRIS": "https://discord.com/api/webhooks/1351209563583418438/FsxJJM57kRI4ug9w78p5YGekr3-F2Du62AS7aJnO_9FbbdijL7RUUOjTw6GUbNTLo15Z",
   },
   "PlayerResponseSuccessfull": "Report successfully delivered",
   "ServerName": "Server"
